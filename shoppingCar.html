@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/shoppingCar.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+	    <script src="js/shoppingCar.js"></script>
+	</head>
+	<body>
+      <div class="usercenter">
+	  	 <ul class="usertop">
+	  	 	<li class="service">
+	  	 		<img src="img/service.png">
+	  	 		<a href="#">在线客服</a>
+	  	 		<div class="user_hide">
+	  	 			<span class="hideImg"><img src="img/userhide.png"></span>
+	  	 			<span class="livetime">
+	  	 				时间：9:00-24:00<br/>
+	  	 				热线：4008-006-006
+	  	 			</span>
+	  	 		</div>	
+	  	 	</li>
+	  	 	<li class="bag">
+	  	 		<a href="#"><p>购物袋</p><span>0</span></a>	
+	  	 	</li>
+	  	 	<li class="collect">
+	  	 		<a href="#"></a>
+	  	 		<div class="mycollect">
+	  	 			<span>我的收藏<span>
+	  	 		</div>
+	  	 	</li>
+	  	 	<li class="discount">
+	  	 		<a href="#"></a>
+	  	 		<div class="mydiscount">
+	  	 			<span>我的优惠券<span>
+	  	 		</div>
+	  	 	</li>
+	  	 </ul>
+	  	 <div class="userfot">
+	  	 	<li class="code">
+	  	 		<a href="#"></a>
+	  	 		<div class="mycode">
+	  	 			<img src="img/mycode.png">
+	  	 			<span>手机注册有礼<span>
+	  	 		</div>
+	  	 	</li>
+	  	 	<li class="TOP"><a href="#"></a></li>
+	  	 </div>	
+	  </div>			
+		
+		
+	  <div class="top">
+	  	<div class="layout">	  	   
+	  	  	<span class="l_menu">
+	  	  		欢迎您，
+		  	  	<span><a href="#">15770827588</a></span>
+		  	  	<a id="unload" href="index.html">[退出]</a>
+	  	  	</span>	  	 
+	  	  <div class="topRight">
+	  	  	<a href="#">我的订单</a>
+	  	  	<span>|</span>
+	  	  	<a href="#">我的优惠券</a>
+	  	  	<span>|</span>
+	  	  	<a href="#">我的收藏</a>
+	  	  	<span>|</span>
+	  	  	<a href="#">帮助中心</a>
+	  	  </div>	  
+	  	</div>		
+	  </div>
+	  
+	  <div class="header">
+	  	<div class="layout">
+	  	  <img src="img/h1.png">
+	  	  <div class="hRight">
+	  	  	 <input type="text" id="text1" placeholder="搜索商品"/>
+	  	  	 <input type="button" id="btn1" value="搜索"/>
+	  	  	 <div class="hRight_1">
+	  	  	 	<a href="#">面霜&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">面膜&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">洁面&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">奶粉&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">纸尿裤&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">辅食&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">宝宝营养&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">唇部彩妆&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">身体护理&nbsp;|&nbsp;</a>
+	  	  	 	<a href="#">香氛</a>
+	  	  	 </div>
+	  	  </div>	  	  	  	  
+	  	</div>
+	  </div>
+	  
+	  <div class="stepcar">
+	  	<div class="layout2">
+		  	 <div class="stepshow">
+		  	 	<img src="img/stepone.png">
+		  	 </div>
+		  	 <span class="one">1.购物袋</span>
+		  	 <span class="two">2.确认订单信息</span>
+		  	 <span class="three">3.付款</span>
+	  	</div> 
+	  </div>
+	  
+	  <div class="layout2">
+	  	<div class="carlist">
+	  		<ul class="list_ul">
+	  			<li style="width:6%">
+	  				<input type="checkbox" id="check1"/>
+	  				<span>全选</span>
+	  			</li>
+	  			<li style="width:43%">商品</li>
+	  			<li style="width:15%">单价</li>
+	  			<li style="width:12%">数量</li>
+	  			<li style="width:12%">小计</li>
+	  			<li style="width:12%">操作</li>
+	  		</ul>  		
+	  	</div>	  	
+	  </div>
+	  
+	  <div class="layout2">
+	  	<h1 class="list_title">
+	  		<input type="checkbox" id="check2"/>
+	  		<span>杭州保税仓</span>
+	  	</h1>
+	  	<div class="goods">
+	  		<table width="100%" id="table1">
+	  			<tbody>
+	  				
+	  				<tr id="tr1">
+	  					<td width="5%">
+	  						<input type="checkbox" id="choic" value=""/>
+	  					</td>
+	  					<td width="43%">
+	  						<div class="goodsInfo">
+	  							<a class="goods_a" href="">
+	  								<i></i>
+	  								<img src="img/goodsimg1.jpg" alt="" />
+	  							</a>
+	  							<div class="g_text">
+	  								<a href="">Gerber/嘉宝 蓝莓星星泡芙 42g*4盒</a>
+	  								<p class="des">规格：<span></span></p>
+	  								<p class="des">重量：<span></span>kg</p>
+	  								<div></div>
+	  							</div>
+	  						</div>
+	  					</td>
+	  					<td width="16%">
+	  						<strong class="g_price">￥<span>95.00</span></strong>
+	  						<p></p>
+	  					</td>
+	  					<td width="12%">
+	  						<div class="amount">
+	  							<a class="btn_del" href="javascript:;">-</a>
+	  							<input class="a_num" type="text" value="1"/>
+	  							<a class="btn_plus" href="javascript:;">+</a>
+	  						</div>
+	  						<p></p>
+	  					</td>
+	  					<td width="12%">
+	  						<strong class="final">￥<span>95.00</span></strong>
+	  					</td>
+	  					<td width="12%">
+	  						<a id="remove" href="javascript:;" title="删除"></a>
+	  					</td>
+	  				</tr>
+	  				
+	  					  					  							  				  				
+	  				<tr>
+	  					<td colspan="6" class="g_bottom">
+	  						<span>
+	  							商品金额：
+	  						<strong class="f_price">￥<span>0.00</span></strong>
+	  						</span>
+	  					</td>
+	  				</tr>
+	  			</tbody>
+	  		</table>
+	  	</div>
+	  </div>
+	  
+	  <div class="layout2">
+	  	<div class="carFoot">
+	  	   	<a class="goshopping" href="">继续购物</a>
+	  	     <div class="footRight">
+	  	     	<div class="f_right">
+	  	     	   <a class="account" href=""><span>去结算</span></a>	
+	  	     	</div>
+	  	     	<div class="f_left">
+	  	     		<ul>
+	  	     			<li>
+	  	     				已选
+	  	     				<span id="goods_sum">0</span>
+	  	     				件商品，合计（不含运费及税费）
+	  	     				<span class="total_price">
+	  	     					<i>￥</i>
+	  	     					<span id="payAll">0.00</span>
+	  	     				</span>
+	  	     			</li>
+	  	     			<li class="shopTotal">
+	  	     				商品总计：￥
+	  	     				<span id="goods_amount">0.00</span>
+	  	     				活动优惠：￥
+	  	     				<span id="discount">0.00</span>
+	  	     			</li>
+	  	     		</ul>
+	  	     	</div>
+	  	     </div>	  	
+	  	</div>
+	  	
+	  	<div class="history">
+	  	   <div class="tit_history">
+	  	   	 热销推荐
+	  	   </div>
+	  	   <ul>
+		  	   	<li class="h_items">
+		  	   		<a href="">
+			  	   		<img src="img/items1.jpg" alt="" />
+			  	   		<p class="h_name">Regen/丽珍 纯棉超细纤维美白皮肤面膜贴 10片</p>
+			  	   		<p class="h_price">￥<i class="pr">98.00</i></p>
+			  	   		<div class="h_buy">
+			  	   			<span>立即购买</span>
+			  	   		</div>
+		  	   		</a>
+		  	   	</li>
+		  	   	<li class="h_items">
+		  	   		<a href="">
+			  	   		<img src="img/items2.jpg" alt="" />
+			  	   		<p class="h_name">VDL 立体璀璨持久粉底液 30ml</p>
+			  	   		<p class="h_price">￥<i class="pr">169.00</i></p>
+			  	   		<div class="h_buy">
+			  	   			<span>立即购买</span>
+			  	   		</div>
+		  	   		</a>
+		  	   	</li>
+		  	   	<li class="h_items">
+		  	   		<a href="">
+			  	   		<img src="img/items3.jpg" alt="" />
+			  	   		<p class="h_name">AVENT/新安怡 自然原生新生儿防胀气宽口径玻璃奶瓶 </p>
+			  	   		<p class="h_price">￥<i class="pr">139.00</i></p>
+			  	   		<div class="h_buy">
+			  	   			<span>立即购买</span>
+			  	   		</div>
+		  	   		</a>
+		  	   	</li>
+		  	   	<li class="h_items">
+		  	   		<a href="">
+			  	   		<img src="img/items4.jpg" alt="" />
+			  	   		<p class="h_name">Blackmores preg + breastfeeding gold 孕妇</p>
+			  	   		<p class="h_price">￥<i class="pr">228.00</i></p>
+			  	   		<div class="h_buy">
+			  	   			<span>立即购买</span>
+			  	   		</div>
+		  	   		</a>
+		  	   	</li>
+		  	   	<li class="h_items">
+		  	   		<a href="">
+			  	   		<img src="img/items5.jpg" alt="" />
+			  	   		<p class="h_name">CANMAKE/井田 唇部遮瑕膏 9g</p>
+			  	   		<p class="h_price">￥<i class="pr">68.00</i></p>
+			  	   		<div class="h_buy">
+			  	   			<span>立即购买</span>
+			  	   		</div>
+		  	   		</a>
+		  	   	</li>	  	   	
+	  	   </ul>
+	  	</div>
+	  </div>
+	  
+	  <div class="base">
+	  	<div class="layout2">
+	  		<div class="b1">
+	  			<img src="img/base1.png">
+	  			<span>4008-006-006</span>
+	  			<div class="nav_r">
+	  				<a href="#">公司简介</a>
+	  				<a href="#">联系我们</a>
+	  				<a href="#">大事记</a>
+	  				<a href="#">人才招募</a>
+	  				<a href="#">帮助中心</a>
+	  				<a href="#">法律声明</a>
+	  				<a href="#">合作专区</a>
+	  				<a href="#">友情链接</a>
+	  			</div>	
+	  		</div>	
+	  	</div>	
+	  </div>
+	  
+	  <div class="foot">
+	  	<div class="layout2">
+		  	<p class="copyright">Copyright © 2010 - 2016, 
+		  		版权所有 HITAO.TOP&nbsp;&nbsp;&nbsp;&nbsp;湘ICP备10012668号-3&nbsp;&nbsp;
+		  		嗨淘全球网　|　<a href="#">营业执照</a>
+		  	</p>
+		  	<div class="fot">
+		  		<a class="f1" href="#"><img src="img/fot1.png"></a>
+		  		<a class="f2" href="#"><img src="img/fot2.png"></a>
+		  		<a class="f3" href="#"><img src="img/fot3.png"></a>
+		  		<a class="f4" href="#"><img src="img/fot4.png"></a>
+		  		<a class="f5" href="#"><img src="img/fot5.png"></a>
+		  	</div>
+	  	</div>
+	  </div>
+	  
+	  <div class="coverAll">
+	  	 
+	  </div>
+	  <div class="tips">
+	  	 	<a class="clos" href="javascript:;">X</a>
+	  	 	<div class="bd">
+	  	 		<p>确认将商品移除购物袋？</p>
+	  	 		<div class="btn_div">
+	  	 			<a class="btn_1" href="javascript:;"><span>确定</span></a>
+	  	 			<a class="btn_2" href="javascript:;"><span>取消</span></a>
+	  	 		</div>
+	  	 	</div>
+	  </div>
+	  
+	  
+	  
+	</body>
+</html>
