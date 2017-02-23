@@ -1,0 +1,63 @@
+
+/*nav*/
+.nav {background:#f5f5f5;padding-bottom:20px;width:100%;}
+
+/*warrp*/
+.warrp {height:42px;line-height:42px;padding:0 6px;font-size:12px;}
+.warrp .w_title {color:#666;}
+.warrp .w_hover {color:#E10482;text-decoration:underline;}
+
+
+/*kind*/
+.kind {border:#eee solid 1px;border-radius:5px;margin:0 6px;background:#fff;overflow:hidden;}
+.kind .k_top {height:38px;line-height:38px;background:#ddd;padding-left:15px;color:#000;font-size:12px;}
+.kind .k_top span {color:#E10482;}
+.kind .k_content {padding:0 15px 5px;line-height:30px;font-size:12px;}
+.kind .k_content dl {display:block;padding:5px 0;height:30px;}
+.kind .k_content dl dt {padding-left:15px;text-align:right;width:5%;float:left;}
+.kind .k_content dl dd {padding-right:5%;width:87%;position:relative;float:left;}
+.kind .k_content dl dd a {display:inline-block;padding:0 10px;color:#666;text-decoration:none;}
+.kind .k_content dl dd a:hover {color:#E10482;}
+
+/*searcher*/
+.searcher {border-radius:5px;background:#fff;border:#eee solid 1px;height:40px;line-height:40px;
+margin:10px 5px;}
+.searcher dl {display:block;line-height:40px;font-size:14px;}
+.searcher dl dt {display:block;width:74px;list-style:none;float:left;font-size:12px;text-align:right;}
+.searcher dl dd {text-align:center;position:relative;cursor:pointer;color:#999;width:84px;display:block;
+list-style:none;float:left;font-size:12px;}
+.searcher dl dd a {margin-top:5px;display:block;color:#cccccc;height:28px;line-height:28px;
+margin-right:10px;border:#ccc solid 1px;}
+.searcher dl dd .checkone {border:1px solid #E10482;color:#E10482;}
+
+
+/*allgoods*/
+.allgoods {width:1190px;margin:0 auto;}
+.allgoods .main_pro {display:block;width:1190;}
+.main_pro li {float:left;display:block;width:283px;height:445px;border:1px solid #f0f0f0;
+margin:15px 6px;background:#fff;}
+.main_pro li a {display:block;cursor:pointer;position:relative;}
+.main_pro li a .goodsImg {width: 270px;height: 270px;padding: 10px 0;overflow: hidden;
+display: block;position: relative;margin-right:13px;}
+.main_pro li a .goodsImg img {width:270px;height:270px;margin:0 auto;position:absolute;top:0;left:0;}
+.main_pro li a .goodsImg .soldout {display:block;width:130px;height:130px;z-index: 2;position: absolute;
+left:70px;top:70px;color: #fff;line-height: 140px;font-size: 24px;text-align: center;font-style:normal;
+background:url(../img/yqg.png) no-repeat;display:none;}
+
+.main_pro li a .goodsText {padding: 6px 20px 0 20px;position: relative;}
+.goodsText .goodsName {color: #000;height: 28px;line-height: 26px;white-space: nowrap;
+text-overflow: ellipsis;display: block;width: 280px;font-size: 12px;}
+.goodsText .goodsName img {float:left;width:22px;height:22px;margin-right:5px;}
+.goodsText p {display:block;color:#000;height:46px;font-size:18px;line-height:24px;
+padding:5px 0 0;cursor:pointer;}
+.goodsText .goodsPrice {height:38px;line-height: 38px;color: #e10482;padding-top: 10px;cursor:pointer;}
+.goodsText .goodsPrice em {font-size: 18px;padding-right: 3px;float: left;font-style:normal;}
+.goodsText .goodsPrice b {font-size: 30px;font-weight: normal;float: left;padding-right: 6px;}
+.goodsText del {color:#999;font-size:13px;}
+.main_pro li a .goodsBuy {display:block;width:59px;height:59px;background:#000;color:#fff;
+text-align:center;line-height:59px;font-size:14px;border-radius:29px;position:absolute;top:400px;left:200px;}
+
+
+
+/*bottom*/
+.bottom .help .last {margin-left:40px;}
